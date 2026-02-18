@@ -28,7 +28,8 @@ A custom XP algorithm that rewards genuine engagement while preventing spam.
 ## Technical Stack
 
 * **Language:** Python 3.x
-* **Library:** `discord.py`
+* **Library:** discord.py
+* **Intelligence:** Ollama (Gemma3)
 * **Database:** SQLite3 (for lightweight, high-speed indexing)
 * **Environment:** Designed to run in localized environments or cloud notebooks.
 
@@ -40,6 +41,15 @@ The bot maintains a relational database to ensure data integrity:
 * `channels`: Maps the server structure, including parent-child relationships for threads.
 * `messages`: A permanent record of community interactions.
 * `reactions`: Links users to specific messages via emojis.
+
+## 🚀 Roadmap (Upcoming Features)
+
+We are constantly evolving Ashley to be the ultimate community companion. Our current development focus includes:
+
+* **Automated Role Management:** Auto-granting a "Member" role upon reaching Level 2 to streamline onboarding.
+* **Onboarding Ease:** Reducing the friction between Level 1 and Level 2 by rewarding simple introductory actions (e.g., sharing a proud creation or a "where I am from" message).
+* **Achievement System:** Unlockable badges and titles tied to specific leveling milestones.
+* **Community Events:** Bonus XP multipliers for town halls, showcase events, and weekend challenges.
 
 ## Setup
 
